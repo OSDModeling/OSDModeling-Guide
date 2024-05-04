@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Install Guide
+subtitle: install and run the application
 gh-repo: daattali/beautiful-jekyll
 ---
 
@@ -17,7 +18,7 @@ gh-repo: daattali/beautiful-jekyll
 
 **AWS API(code) may not include in this guide**
 
-****
+*******************
 
 ### 3. Environment Setup and Run:
 #### 1. Clone the repository: Start by cloning the source code from your repository.
