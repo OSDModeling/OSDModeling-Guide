@@ -23,7 +23,8 @@ gh-repo: daattali/beautiful-jekyll
 1. Clone the repository: Start by cloning the source code from your repository.
 
 In project repo, you can select any option you like to clone the repository.
-![image](./install_1.png)
+
+<img src="/install_1.png">
 
 OR In a new folder, open Terminal/Command Prompt in the folder.
 
