@@ -46,9 +46,6 @@ layout: page
         {% endif %}
       </a>
 
-      {% if post.author %}
-        <span>By <strong>{{ post.author | strip_html }}</strong></span>
-      {% endif %}
       <p class="post-meta">
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         Posted on {{ post.date | date: date_format }}
@@ -80,20 +77,6 @@ layout: page
         {% endif %}
       </div>
       {% endunless %}
-
-      {% if site.feed_show_tags != false and post.tags.size > 0 %}
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          {% for tag in post.tags %}
-          <li class="list-inline-item">
-            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
 
     </article>
   </li>

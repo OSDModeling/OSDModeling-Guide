@@ -21,9 +21,6 @@ excerpt_length: 50
 
 feed_show_excerpt: false
 
-feed_show_tags: false
-
-
 edit_page_button: false
 
 navbar-var-length: false
