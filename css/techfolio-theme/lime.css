@@ -1,0 +1,24 @@
+/* Lime Theme: modifies the default theme to inject a wee bit o' green in various places. */
+
+/* Use Open Sans as the default font. */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Format social media icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-green1);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Simplify the styling of the bottom of Essay cards. */
+.card-footer {
+  background-color: var(--bs-white);
+  border-top: none;
+}

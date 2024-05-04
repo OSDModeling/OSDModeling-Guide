@@ -1,14 +1,7 @@
-# project
-.idea
-_site
-.sass-cache
-.vagrant
-
-# general
+_site/
 .DS_Store
-Thumbs.db
-ehthumbs.db
-
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 Gemfile.lock
-
-beautiful-jekyll-theme-*.gem
+.idea
