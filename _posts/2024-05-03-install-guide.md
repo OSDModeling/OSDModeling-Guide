@@ -24,7 +24,7 @@ gh-repo: daattali/beautiful-jekyll
 
 In project repo, you can select any option you like to clone the repository.
 
-<img src="/install_1.png">
+<img src="https://github.com/OSDModeling/OSDModeling-Guide/blob/main/_posts/install_1.png">
 
 OR In a new folder, open Terminal/Command Prompt in the folder.
 
