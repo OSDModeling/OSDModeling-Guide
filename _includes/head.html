@@ -33,17 +33,6 @@
 
   <title>{{ title }}</title>
 
-  {% capture author %}
-    {%- if page.author -%}
-      {{  page.author | strip_html }}
-    {%- elsif site.author -%}
-      {{ site.author }}
-    {%- endif -%}
-  {% endcapture %}
-  {% if author != "" %}
-  <meta name="author" content="{{ author }}">
-  {% endif %}
-
   <meta name="description" content="{{ description }}">
 
   {% if site.mobile-theme-col %}
@@ -59,7 +48,6 @@
   {% endif %}
 
   {% include google_analytics.html %}
-  {% include cloudflare_analytics.html %}
 
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
