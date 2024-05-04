@@ -1,29 +1,92 @@
-title: OSD Modeling & Simulation
-# Edit next line, replacing 'techfolios' with your github username
-url: "https://techfolios.github.io"
-# Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: ""
+###########################################################
+### Welcome to Beautiful Jekyll!
+### This config file is meant for settings that affect your entire website. When you first
+### set up your website you should go through all these settings and edit them, but after
+### the initial set up you won't need to come back to this file often.
+###########################################################
 
-# OPTIONAL CHANGES
-## Specify the theme using any of the css files in css/techfolio-theme
-techfolio-theme: lime.css
-## Specify the formatting for triple backquote code sections.
-rouge-theme: github.css
+############################
+# --- Required options --- #
+############################
 
-# DON'T CHANGE THE FOLLOWING (unless you know what you're doing)
+# Name of website
+title: OSDModeling | Guideline
+
+# Your name to show in the footer
+author: Alexander Hung
+
+title-on-all-pages: false
+
+excerpt_length: 50
+
+feed_show_excerpt: false
+
+feed_show_tags: false
+
+
+edit_page_button: false
+
+navbar-var-length: false
+
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
+
+date_format: "%B %-d, %Y"
+
+#################################################################################
+# --- You don't need to touch anything below here (but you can if you want) --- #
+#################################################################################
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Toronto"
 markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
 kramdown:
-  hard_wrap: false
   input: GFM
-  syntax_highlighter: rouge
-strict_front_matter: true
-mathjax: true
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+# Exclude these files from production site
 exclude:
+  - CHANGELOG.md
+  - CNAME
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
-include:
-  - .nojekyll
+  - screenshot.png
+  - docs/
+
 plugins:
-  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
+
