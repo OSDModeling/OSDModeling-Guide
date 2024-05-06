@@ -7,7 +7,7 @@ gh-repo: daattali/beautiful-jekyll
 
 **You will be labeled according to the numbers as well as working through the numerical sequence.**
 
-Table of content
+## Table of content
 1. [Inputs](#inputs-page)
    1. [Modify Model](#1-modify-model)
    2. [Inputs Dashboard](#2-inputs-dashboard)
@@ -62,11 +62,13 @@ This dialog will popout in your screen for you to fill out.
 ![system info](https://github.com/OSDModeling/OSDModeling-Guide/blob/main/_posts/system_info.PNG?raw=true")
 
 1. You can edit added data by click the editing icon.
-2. You can remove added data by click the trash icon.
+2. 
+3. You can remove added data by click the trash icon.
 
 ### 2. Inputs Dashboard
 
 A simple dashboard for you to overview your inputted data.
+
 ![inputs dashboard](https://github.com/OSDModeling/OSDModeling-Guide/blob/main/_posts/inputs_dashboard.PNG?raw=true")
 
 ### 3. Other Buttons
@@ -76,7 +78,9 @@ Some other buttons.
 ![inputs other buttons](https://github.com/OSDModeling/OSDModeling-Guide/blob/main/_posts/other_buttons.PNG?raw=true")
 
 1. A map feature allow you to toggle map with the data you inputted.
+
 2. After you confirm you inputted data you can run the model.
+
 2.1. An error message pops up in the lower right corner of the screen.
 
 ************
@@ -98,7 +102,8 @@ You can select 1 objective from the 3 objective we provide:
 ![objective2](https://github.com/OSDModeling/OSDModeling-Guide/blob/main/_posts/objective2.PNG?raw=true")
 
 1. Selected drones(with drone info).
-2. other useful info for selected objective.
+2. 
+3. other useful info for selected objective.
 
 ![objective1](https://github.com/OSDModeling/OSDModeling-Guide/blob/main/_posts/objective1.PNG?raw=true")
 
@@ -111,7 +116,8 @@ If model have no valid combinations found will show like the above image.
 There will be a polyline connect with both base and recon location.
 
 1. Click on the marker of Recon location will show more info of recon location with calculated radius(blue circle).
-2. Click on the marker of Base location will show more info of base location.
+2. 
+3. Click on the marker of Base location will show more info of base location.
 
 **********
 
@@ -122,6 +128,7 @@ A simple options for you to save data locally.
 ![data](https://github.com/OSDModeling/OSDModeling-Guide/blob/main/_posts/data.PNG?raw=true")
 
 1 & 2 & 3 Save, load and clear inputted data.
+
 4 & 5 & 6 Save, load and clear inputted and results data.
 
 **You must run model before you click on any option of output data section.**
