@@ -11,6 +11,8 @@ gh-repo: daattali/beautiful-jekyll
 - MacOS
 - Linux(may have some issues installing node.js)
 
+**************
+
 ### 2. Prerequisites
 1. Node.js: Ensure Node.js is installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
 2. npm (Node Package Manager): Comes with Node.js, used to manage dependencies.
@@ -50,3 +52,5 @@ When the application runs successfully, React will automatically open your brows
 Build the App: Build the production version of your app.
 Open Terminal/Command Prompt in the folder. Run command:
 `` npm run build``
+
+****************
